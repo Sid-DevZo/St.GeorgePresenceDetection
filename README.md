@@ -1,4 +1,5 @@
-# St.GeorgePresenceDetection
+# =====  St. GEORGE Presence detection PROJECT===========
+
  This Project detects the presence of St. George in a photo. The photos where St. George is not present nothing detected by this project. It is based on a YOLOv8 model trained by data i.e,  Pictures of St. George. 
 
 # Goal Of The Project:
@@ -31,6 +32,35 @@ To detect Accurately If St. George is present or Not in a Picture.
 ![3c3dc164799ebd705ba07d15f9ddc56f](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/00f51819-66d5-4415-b162-b41d0aea8a56)
 ![63fde4d3613004979b06e49679c419ab](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/59a7da8e-93f4-42b2-b0db-79d2378131b3)
 ![90a4a90aebf219cb5762e0150c687bca](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/d0658a41-a50c-4bcf-aabe-6ec381234868)
+
+# interface of APP and detection:
+
+**----------------------------------------------------St. GEORGE PRESENT-------------------------------------------------------------------**
+
+
+
+
+![Screenshot 2024-04-11 225013](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/b2c25d4e-0309-4e6f-840d-9ef435a72ebc)
+![Screenshot 2024-04-11 225059](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/31461eb9-040a-433d-b712-550248d2fd4c)
+
+
+
+
+
+**--------------------------------------------------------- St. GEORGE is NOT PRESENT-----------------------------------------------**
+
+
+
+
+
+
+
+![Screenshot 2024-04-11 225136](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/9805998f-5808-47e7-b556-8b28b55ec9c8)
+![Screenshot 2024-04-11 225535](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/2afd0821-7d71-478f-bfd4-4716874e791c)
+
+
+
+
 
 
 # Limitation :
