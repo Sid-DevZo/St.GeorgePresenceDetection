@@ -1,15 +1,22 @@
 # St.GeorgePresenceDetection
  This Project detects the presence of St. George in a photo. The photos where St. George is not present nothing detected by this project. It is based on a YOLOv8 model trained by data i.e,  Pictures of St. George. 
 
+# Goal Of The Project:
+To detect Accurately If St. George is present or Not in a Picture.
 
+ # Total Process :
+   Collect Data ----> Manually Label the Data ----> preprocessing (PASCAL VOC .XML format to YOLO .TXT format)
+   ---->Training the model----> Evaluate and Testing the model----> Export the model ----> Running the Streamlit
+   App Using the model.
+   
  # Approch to Train The model
  The Google Colab link for Training the Model :
  https://colab.research.google.com/drive/1BMNo0wyzvzZ0vvTflUhHZK7AIuczUvfu#scrollTo=JnKX-M-SV7Ja
  
  steps followed in the above process of training:
  1. Downloading Ultralytics to use YOLOv8 model.
- 2. importing The Train, validation dataset on working directory
- 3. follow the rules for training and evaluation.
+ 2. importing the Train, validation dataset on working directory
+ 3. follow the rules for training and evaluation mentioned in refrence [1].
  
  # Running the Streamlit App
  # Step 1:
@@ -25,9 +32,36 @@
 ![63fde4d3613004979b06e49679c419ab](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/59a7da8e-93f4-42b2-b0db-79d2378131b3)
 ![90a4a90aebf219cb5762e0150c687bca](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/d0658a41-a50c-4bcf-aabe-6ec381234868)
 
+
 # Limitation :
  
+Detecting the presence of St. George in an image specifically is a challenging task due to the artistic variations in his depiction. However, you can approach this project as an object detection problem with some adaptations. 
 
+
+**Problem-----There are some picture where this model can't detect St. George and There are Wrongly detected pictures also-----**
+
+Challenges:
+
+1. Variability in Depiction: St. George is portrayed differently across art styles and periods. He might wear various armor, ride different horses, and have the dragon in diverse forms.
+
+2. Lack of Specific Data:  Training data specifically for St. George might be scarce.
+
+ 
+# Future Works :
+It is not a very accurate model because the data used to train the model are artistic which has very different and has many varieties.
+Though there are some ways to Improve it.
+1. Increasing The dataset
+2.  fine tuning data, augmentation
+3.  particularly collect data to differentiate between a normal Horse ridder and St. George.
+4.  It can be also possible to detect and recognize the spear, the dragon associated with St. George.
+
+
+# References:
+1. https://github.com/ultralytics/ultralytics
+
+2. https://arxiv.org/abs/2102.06529
+
+3. https://github.com/roboflow/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb
 
 
 
