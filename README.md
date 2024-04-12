@@ -24,6 +24,9 @@ To detect Accurately If St. George is present or Not in a Picture.
  1. Downloading Ultralytics to use YOLOv8 model.
  2. importing the Train, validation dataset on working directory
  3. follow the rules for training and evaluation mentioned in refrence [1].
+
+    Dataset: I used ***11*** Pictures of St. Georg e to Train The model and ***8*** pictures to validate it.
+    I test the Model in many pictures including The below ones in ***Results section.***
  
  # Running the Streamlit App
  # Step 1 :
