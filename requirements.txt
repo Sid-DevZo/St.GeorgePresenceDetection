@@ -1,9 +1,0 @@
-ultralytics
-opencv-python
-pillow
-streamlit
-pandas
-xml-python
-pytest-warnings
-functools32
-glob2
