@@ -29,7 +29,7 @@ To detect Accurately If St. George is present or Not in a Picture.
  # Step 1 :
       1. Download this repository.
  # step2 :
-      pip install -r requirements. txt
+      pip install -r requirements.txt
  # Step 3 :
       2. streamlit run DetectionAPP.py 
 
