@@ -26,9 +26,11 @@ To detect Accurately If St. George is present or Not in a Picture.
  3. follow the rules for training and evaluation mentioned in refrence [1].
  
  # Running the Streamlit App
- # Step 1:
+ # Step 1 :
       1. Download this repository.
- # Step 2:
+ # step2 :
+      pip install -r requirements. txt
+ # Step 3 :
       2. streamlit run DetectionAPP.py 
 
 # Results :
