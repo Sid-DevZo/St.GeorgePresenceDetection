@@ -26,7 +26,7 @@ To detect Accurately If St. George is present or Not in a Picture.
  3. follow the rules for training and evaluation mentioned in refrence [1].
 
  # Dataset: 
- I used ***11*** Pictures of St. Georg e to Train The model and ***8*** pictures to validate it.
+ I used ***11*** Pictures of St. George to Train The model and ***8*** pictures to validate it.
  I test the Model in many pictures including The below ones in ***Results section.***
  
  # Running the Streamlit App
