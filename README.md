@@ -1,6 +1,8 @@
-# =====  St. GEORGE Presence detection PROJECT===========
+# ===  St. GEORGE Presence detection PROJECT====
 
  This Project detects the presence of St. George in a photo. The photos where St. George is not present nothing detected by this project. It is based on a YOLOv8 model trained by data i.e,  Pictures of St. George. 
+
+ techstacks: Python, Computer Vision, Machine Learning, Neural Network.
 
 # Goal Of The Project:
 To detect Accurately If St. George is present or Not in a Picture.
