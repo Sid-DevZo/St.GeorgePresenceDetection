@@ -31,11 +31,15 @@ To detect Accurately If St. George is present or Not in a Picture.
  
  # Running the Streamlit App
  # Step 1 :
-      1. Download this repository.
- # step2 :
+       Download this repository.
+ # step 2 :
+       cd custum_dependencies
+ # step 3 :
       pip install -r requirements.txt
- # Step 3 :
-      2. streamlit run DetectionAPP.py 
+ 3 step 4 :
+      cd ..
+ # Step 4 :
+       streamlit run DetectionAPP.py 
 
 # Results :
 ![1f22db87f2fa9ba932836d7969d97726](https://github.com/Sid-DevZo/St.GeorgePresenceDetection/assets/91316695/e43cfa66-9bf0-407c-b0e1-0eab0e197634)
