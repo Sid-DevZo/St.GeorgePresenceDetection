@@ -2,11 +2,11 @@
 
  This Project detects the presence of St. George in a photo. The photos where St. George is not present nothing detected by this project. It is based on a ***YOLOv8 model*** trained by data ( Pictures of St. George ). 
 
- ***Technology used: Computer Vision, Machine Learning, Neural Network.***
+ ***Technology used:     Computer Vision, Machine Learning, Neural Network.***
  
- ***Language Used: PYTHON***
+ ***Language Used:       PYTHON***
  
- ***Environment: Jupyter Notebook, Google Colab*** 
+ ***Environment:        Jupyter Notebook, Google Colab*** 
 
 # Goal Of The Project:
 To detect Accurately If St. George is present or Not in a Picture.
